@@ -42,7 +42,7 @@ main {
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: whitesmoke;
 
   /* Visual */
   background: teal;
@@ -143,6 +143,10 @@ main {
   width: 200px;
   margin: 0 20px 10px 0;
 }
+  /* Font Styling for About Me Paragraphs */
+  p.font1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /* END ABOUT-ME PAGE */
 
 
@@ -151,6 +155,7 @@ main {
   margin: 20px auto;
 }
 
+/* Zoom Picture on Hoover */
 .port-image:hover {
   position: fixed;
   top:100px;
