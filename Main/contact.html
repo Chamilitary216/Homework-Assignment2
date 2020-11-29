@@ -72,9 +72,13 @@
               <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
             </div>
           </div>
-          <!-- Linked Submit Button to a Thank You Page -->
-          <a href="submittedPage.html">Submit
+          <!-- Added Popup alert to Submit Button Click -->
           <button class="submit-btn">Submit</button>
+          <script>
+              $("#submit-btn").click(function() {
+                alert("Thank You! Your form has been submitted.");
+              });
+          </script>
           </a>
         </form>
       </div>
